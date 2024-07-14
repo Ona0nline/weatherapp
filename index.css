@@ -1,0 +1,116 @@
+body{
+  background-color: beige;
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1{
+  color:aliceblue;
+  font-family: "Merriweather";
+}
+
+p{
+  color: aliceblue;
+}
+
+.footer{
+  color: black;
+}
+
+.shift{
+  display: flex;
+  justify-content: right;
+}
+
+.container{
+  background-color: rgb(100, 61, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  width: 700px;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.current-temp{
+  position: absolute;
+  margin-left: 80px;
+  font-size: 50px;
+}
+
+.humidity,.wind{
+  color:rgb(247, 241, 58);
+}
+
+#submit-button{
+  padding: 10px 20px;
+  background-color: rgb(249, 237, 74);
+  border:1px solid #fff;
+  border-radius: 30px;
+  color:rgb(100, 61, 10);
+  font-size: 16px;
+  font-family: "Merriweather";
+}
+
+#submit-button:hover{
+  box-shadow: 3px 3px 3px rgb(254, 255, 180);
+  background-color: rgb(100, 61, 10);
+  color:rgb(249, 237, 74);
+  transition:0.3s;
+}
+
+
+
+#search-input{
+  padding: 15px 20px;
+  border-radius: 16px;
+  border:none;
+}

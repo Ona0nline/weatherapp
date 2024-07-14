@@ -3,16 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet">
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="index.css">
     <title>Weather app</title>
   </head>
 
   <body>
-    <h1>
-      Hey gworl
-    </h1>
 
+       <div class="container">
+      <div class="content">
+        
+        <form>
+        <input id="search-input" type="text" placeholder="Enter a city" required>
+        <input id="submit-button" type="submit" >
+      </form>
+
+      <h1>Pretoria <span class="current-temp">☀️21&deg;C</span></h1>
+       
+      
+      <p class="time-conditions">Friday 11:17,Sunny conditions</p>
+      <p>Humidity:<span class="humidity">10%</span>, Wind:<span class="wind">7km/h</span></p>
+     
+      </div>
+      
+    </div>
+    
     <footer>
-      <p>Coded by <a href="https://github.com/Ona0nline" target="_blank">Onalerona</a> <br/> Repository:<a href="https://github.com/Ona0nline/weatherapp" target="_blank">here</a> <br/>Netlify:<a href="https://ona0nlineweatherapp.netlify.app/" target="_blank">here</a></p>
+      <p class="footer">Coded by <a href="https://github.com/Ona0nline" target="_blank">Onalerona</a> <br/> Repository:<a href="https://github.com/Ona0nline/weatherapp" target="_blank">here</a> <br/>Netlify:<a href="https://ona0nlineweatherapp.netlify.app/" target="_blank">here</a></p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
