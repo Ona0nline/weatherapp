@@ -1,5 +1,5 @@
 body{
-  background-color: beige;
+  background-color: #B3C5D7;
 }
 
 .merriweather-light {
@@ -69,7 +69,7 @@ p{
 }
 
 .container{
-  background-color: rgb(100, 61, 10);
+  background-color: #759EB8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,28 +82,29 @@ p{
 
 .current-temp{
   position: absolute;
-  margin-left: 80px;
-  font-size: 50px;
+  transform: translate(top,20px);
+  margin-left: 200px;
+  font-size: 80px;
 }
 
-.humidity,.wind{
+.color{
   color:rgb(247, 241, 58);
 }
 
 #submit-button{
   padding: 10px 20px;
-  background-color: rgb(249, 237, 74);
-  border:1px solid #fff;
+  background-color: #7392B7;
+  border:none;
   border-radius: 30px;
-  color:rgb(100, 61, 10);
+  color:rgb(249, 237, 74);
   font-size: 16px;
   font-family: "Merriweather";
 }
 
 #submit-button:hover{
   box-shadow: 3px 3px 3px rgb(254, 255, 180);
-  background-color: rgb(100, 61, 10);
-  color:rgb(249, 237, 74);
+  background-color: #B3C5D7;
+  color:#3F5978;
   transition:0.3s;
 }
 
