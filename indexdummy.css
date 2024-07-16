@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #B3C5D7;
 }
 
@@ -50,118 +50,68 @@ body{
   font-style: italic;
 }
 
-.current-url{
-  width:90px;
-  
-}
-
-img{
-  width:42px;
-}
-
-h1{
-  color:aliceblue;
-  font-family: "Merriweather";
-  margin-left:30px;
-}
-
-p{
+h1 {
   color: aliceblue;
-  margin-left:20px;
+  font-family: "Merriweather";
 }
 
-.footer{
+p {
+  color: aliceblue;
+}
+
+.footer {
   color: black;
-  
 }
 
-.shift{
+.shift {
   display: flex;
   justify-content: right;
 }
 
-.container{
+.container {
   background-color: #759EB8;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   border-radius: 30px;
-  width: 1000px;
-  height: 500px;
+  width: 700px;
+  height: 400px;
   margin-top: 30px;
-  box-shadow: 10px 10px 10px #2b5280;
 }
 
-.forecast-container{
-  display:flex;
-  justify-content: space-around;
- 
-}
-
-.forecast-info{
-  padding:0 10px;
-  margin: 5px 0;
-  color:aliceblue;
-}
-
-.forecast-date{
-  text-align: center;
-}
-
-.forecast-icon{
-  margin-top:5px;
-  text-align: center;
-}
-
-.forecast-temp{
-  text-align: center;
-  margin-top: 5px;
-  padding-left:6px;
-  font-size:16px;
-}
-
-.current-temp{
+.current-temp {
   position: absolute;
-  transform: translate(top,20px);
-  margin-left: 400px;
-  font-size: 100px;
+  transform: translate(top, 20px);
+  margin-left: 200px;
+  font-size: 80px;
 }
 
-.color{
-  color:rgb(247, 241, 58);
+.color {
+  color: rgb(247, 241, 58);
 }
 
-.dark{
-  color:#2b5280;
-  font-weight: 900;
-}
-
-.light{
-  color: #c8d1db;
-}
-
-#submit-button{
+#submit-button {
   padding: 10px 20px;
-  margin-left: 30px;
-  /* transform: translateY(-41px); */
   background-color: #7392B7;
-  border:none;
+  border: none;
   border-radius: 30px;
-  color:rgb(249, 237, 74);
+  color: rgb(249, 237, 74);
   font-size: 16px;
   font-family: "Merriweather";
 }
 
-#submit-button:hover{
+#submit-button:hover {
   box-shadow: 3px 3px 3px rgb(254, 255, 180);
   background-color: #B3C5D7;
-  color:#2b5280;
-  transition:0.3s;
+  color: #3F5978;
+  transition: 0.3s;
 }
 
-#search-input{
+
+
+#search-input {
   padding: 15px 20px;
   border-radius: 16px;
-  border:none;
+  border: none;
 }
